@@ -1,0 +1,64 @@
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.headerLogo {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 51px;
+}
+
+span {
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 51px;
+  color: #fe8c01;
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #818282;
+}
+
+.aMenu {
+  color: inherit;
+  text-decoration: none;
+}
+
+.headerBasket {
+    position: relative;
+}
+
+.basketBox {
+  display: flex;
+}
+
+.basketValue {
+  position: absolute;
+  background: #fe8c01;
+  border-radius: 50px;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  top: -25px;
+  right: -25px;
+}

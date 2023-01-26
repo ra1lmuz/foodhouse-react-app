@@ -1,0 +1,75 @@
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.bannerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topText {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #fe8c01;
+}
+
+.bottomText {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 30px;
+  color: #232323;
+}
+
+.titleText {
+  font-weight: 800;
+  font-size: 155px;
+  line-height: 189px;
+  padding-top: 20px;
+  color: #232323;
+}
+
+.color {
+  font-weight: 800;
+  font-size: 155px;
+  line-height: 189px;
+
+  color: #fe8c01;
+}
+
+.buttonText {
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.buttonText button {
+  background: #fe8c01;
+  box-shadow: 0px 0px 20px -5px #fe8c01;
+  border-radius: 100px;
+  border: none;
+  padding: 18px 79px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.buttonText p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 228px;
+  color: #c4c4c4;
+}
+
+.banner {
+    padding: 50px 0;
+}

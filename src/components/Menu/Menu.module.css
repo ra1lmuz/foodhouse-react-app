@@ -1,0 +1,121 @@
+.container {
+  max-width: 1700px;
+  margin: auto;
+}
+
+.categories {
+  padding: 100px 0;
+}
+
+.title {
+  position: relative;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+
+  color: #232323;
+}
+
+.title::before {
+  content: "";
+  background: #fe8c01;
+  border-radius: 50px;
+  position: absolute;
+  width: 280.67px;
+  height: 8px;
+  bottom: -5px;
+  left: 40%;
+}
+
+.categoriesBox {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  padding: 60px 0;
+}
+
+.categoriesText {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.catItem {
+  background: #e9f8fb;
+  border-radius: 16px;
+  text-align: center;
+  padding: 20px;
+  color: #232323;
+}
+
+.catItem:hover {
+  background-color: #fe8c01;
+  color: #fff;
+  fill: #fff;
+}
+
+.tovarBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 60px;
+}
+
+.tovarItem {
+  position: relative;
+  z-index: 0;
+}
+
+.tovarText {
+  position: absolute;
+  color: #fff;
+  bottom: 30px;
+  left: 30px;
+  opacity: 0;
+  z-index: 1001;
+}
+
+.tovarTitle {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.tovarPortion {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+  padding: 10px 0;
+
+  color: #e9f8fb;
+}
+
+.tovarGram {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height, or 117% */
+
+  color: #e9f8fb;
+}
+
+.tovarButton {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 25px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.tovarItem:hover .tovarImg{
+  filter: brightness(0.7);
+}
+
+.tovarItem:hover .tovarText {
+    opacity: 1;
+}
