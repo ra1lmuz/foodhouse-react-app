@@ -119,3 +119,19 @@
 .tovarItem:hover .tovarText {
     opacity: 1;
 }
+
+.buttonMore {
+  border: none;
+  background: #E9F8FB;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 70px;
+  color: #232323;
+  text-align: center;
+  width: 350px;
+  margin: auto;
+  margin-bottom: 50px;
+}
