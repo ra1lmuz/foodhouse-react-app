@@ -1,4 +1,6 @@
 import styles from "./Header.module.css";
+import cart from "../../assets/icons/cart-icon.svg";
+
 
 const Header = () => {
   return (
@@ -24,7 +26,7 @@ const Header = () => {
           </div>
           <div className={styles.headerBasket}>
             <div className={styles.basketBox}>
-              <img src="./src/assets/icons/cart-icon.svg" alt="" />
+              <img src={cart} alt="" />
               <div className={styles.basketValue}>12</div>
             </div>
           </div>

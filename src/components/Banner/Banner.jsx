@@ -1,4 +1,6 @@
 import styles from "./Banner.module.css";
+import banner from "../../assets/hero-image.hero-right.png";
+
 
 const Banner = () => {
   return (
@@ -19,7 +21,7 @@ const Banner = () => {
             </div>
           </div>
           <div className={styles.bannerImage}>
-            <img src="./src/assets/hero-image.hero-right.png" alt="" />
+            <img src={banner} alt="banner" />
           </div>
         </div>
       </div>
